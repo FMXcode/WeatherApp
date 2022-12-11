@@ -8,4 +8,18 @@
 .blackMod{
   color: white;
   background-color: black;
+  .appHeader{
+    margin-top: 0;
+    padding-top: 10px;
+    background-color: black;
+    .linkPage{
+      color: white;
+      text-shadow:0 0 10px #c00;
+      a{
+        -moz-text-shadow:0 0 10px #c00;
+        //-webkit-text-shadow:0 0 10px #c00;
+        //text-shadow:0 0 10px #c00;
+      }
+    }
+  }
 }

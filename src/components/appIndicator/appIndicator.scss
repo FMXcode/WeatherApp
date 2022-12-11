@@ -1,0 +1,64 @@
+.appIndicator{
+  background-color: white;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(#88c0eb,0.5);
+  margin-top: 50px;
+
+  width: 250px;
+  height: 100px;
+  left: 165px;
+  top: 571px;
+  display: flex;
+  h3{
+    height: 10px;
+    margin-bottom: 8px;
+  }
+  li{
+    display: block;
+    list-style-type: none;
+    .temperature{
+      color: lightgreen;
+      font-size: 12px;
+    }
+  }
+  ul{
+    height: 20px;
+    width: 80px;
+    justify-content: space-between;
+  };
+  img{
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+
+  .redValue{
+    color: #ea4040;
+    font-weight: bold;
+  }
+
+  .greenValue{
+    color: #09c009;
+    font-weight: bold;
+  }
+  .indicator{
+    display: flex;
+  }
+}
+
+
+.appIndicator:hover{
+  box-shadow: 10px 10px 10px rgba(#88c0eb,0.5);
+  transition: 0.7s;
+}
+
+.indAttention{
+  box-shadow: 0 0 10px rgba(#e86666,0.5);
+}
+.indAttention:hover{
+  box-shadow: 10px 10px 10px rgba(#ea4040,0.5);
+  transition: 0.7s;
+}
+

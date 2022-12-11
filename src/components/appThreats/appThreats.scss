@@ -1,0 +1,27 @@
+.appThreats{
+  height: 700px;
+  width: 1140px;
+  margin: 0 auto;
+  background-color: white;
+  .ConThreat{
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 250px;
+    margin-bottom: 30px;
+  }
+  h6{
+    color: darkgray;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+}
+.excess{
+  color: #ea4040;
+  font-weight: bold;
+}
+.normal{
+  color: #3fa9f5;
+  font-weight: bold;
+}
